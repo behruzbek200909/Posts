@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1{
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'poppins',sans-serif;
+    color: #000;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;  
+}
+
+li {
+    width: 300px;
+    background: linear-gradient(#000,red,yellow);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'poppins',sans-serif;
+    color: #fff;
+}
+
